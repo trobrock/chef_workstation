@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 echo "Installing chef"
-curl -L https://www.opscode.com/chef/install.sh | bash
+sudo bash -c $(curl -L https://www.opscode.com/chef/install.sh)
 
 curl -LO https://github.com/trobrock/chef_workstation/archive/master.tar.gz
 tar xzf master.tar.gz
