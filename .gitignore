@@ -2,5 +2,5 @@
 
 vendor/ruby
 .bundle
-cookbooks
 tmp
+.DS_Store
