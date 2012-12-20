@@ -7,4 +7,8 @@
 # All rights reserved - Do Not Redistribute
 #
 
+directory Chef::Config[:file_cache_path] do
+  recursive true
+end
+
 include_recipe "homebrew"
