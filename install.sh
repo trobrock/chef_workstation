@@ -12,3 +12,5 @@ cd .bootstrap
 hdiutil mount vendor/xcode452cltools10_76938212a.dmg
 sudo installer -package "/Volumes/Command Line Tools (Lion)/Command Line Tools (Lion).mpkg" -target "/Volumes/Macintosh HD"
 hdiutil unmount "/Volumes/Command Line Tools (Lion)"
+
+chef-client -c solo.rb -j solo.json
